@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    background-color: rgb(44, 178, 133);
+}
+header {
+    background: linear-gradient(to top, rgb(53, 106, 53), darkgreen);
+    height: 230px;
+    margin: 0;
+}
+.principal {
+    margin: 0px auto 10px auto;
+    color: rgba(255, 255, 255, 0.774);
+    text-align: center;
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+pre {
+    color: rgba(255, 255, 255, 0.707);
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    font-family: sans-serif;
+}
+.links {
+    color: rgb(33, 81, 31);
+    padding-left: 10px;
+    text-decoration: none;
+}
+.links::after {
+    content: '🔗';
+}
+.link::after {
+    content: '🔗';
+}
+a {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    background-color: rgb(8, 54, 8) ;
+    
+    padding: 10px;
+}
+main {
+    background-color: white;
+    width: 900px;
+    margin: 20px auto 10px auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.359);
+    border-radius: 0 0 10px 10px;
+}
+.main {
+    margin: 0 10px 10px 15px;
+    font-family: Android;
+    color: green;
+}
+@font-face {
+    font-family: 'Android';
+    src: url(/fonte/idroid.otf);
+}
+.agadois {
+    font-family: Android;
+    color: green;
+    margin: 0 10px 10px 15px;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.542), white);
+}
+main > p {
+    font-family: sans-serif;
+    padding: 10px 15px;
+    text-align: justify;
+    text-indent: 20px;
+}
+.robos {
+
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.irina {
+    height: auto;
+    display: block;
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+.bugdroid {
+    margin: 0 auto 0 auto;
+    width: 40%;
+    display: block;
+}
+.video {
+    width: 60%;
+    display: block;
+    margin: 10px auto 10px auto;
+
+}
+div {
+    height: 100%;
+    margin: 10px;
+}
+h3 {
+    background-color: rgb(21, 142, 84);
+    font-family: sans-serif;
+}
+.cabeça {
+    background-color: rgba(26, 209, 166, 0.685);
+    border-radius: 10px;
+}
+.agatres {
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+.textinho {
+    font-family: sans-serif;
+    padding: 10px 15px;
+    text-align: justify;
+    text-indent: 20px;
+}
+ul > li {
+    list-style-type: none;
+    padding-left: 0;       
+    margin-left: 0;  
+    text-decoration: underline;
+    font-family: "Cabin", sans-serif; 
+}
+li::before {
+    content: "✔️";
+}
+ul {
+    display: block;
+    margin: 10px;
+    padding: 30px;
+    columns: 2;
+}
+.textinho2 {
+    font-family: sans-serif;
+    padding: 15px 30px;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px;
+}
+footer {
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center  ;
+}
