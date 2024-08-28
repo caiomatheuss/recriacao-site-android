@@ -62,7 +62,7 @@ main {
     src: url(/fonte/idroid.otf);
 }
 .agadois {
-    font-family: Android;
+    font-family: 'Android';
     color: green;
     margin: 0 10px 10px 15px;
     background-image: linear-gradient(to right, rgba(0, 128, 0, 0.542), white);
@@ -91,10 +91,10 @@ main > p {
     display: block;
 }
 .video {
-    width: 60%;
-    display: block;
-    margin: 10px auto 10px auto;
-
+    background-color: darkgreen;
+    margin: 0 -1px 0 -1px;
+    padding: 10px;
+    text-align: center;
 }
 div {
     height: 100%;
